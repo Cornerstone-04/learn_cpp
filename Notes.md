@@ -24,8 +24,19 @@
 - Microsoft
 - NASA
 
-### IDEs for C++
+### Best IDEs for C++
 
 - MS Visual Studio[https://visualstudio.microsoft.com/vs/community]
 - XCode (App Store)
 - CLion[https://www.jetbrains.com/clion/download]
+
+#### Notes
+
+- ```return 0``` specifies that the program will run correctly.
+- Returning any other value (+/-) means that the program encouters an error.
+
+### Compiling and Running
+
+- First compile C++ code to machine language.
+- Compile & run using F6 VS Code shortcut.
+- Compile in terminal using g++ and file name and output file(e.g: ```g++ main.cpp -o main```), then run by calling the ```.exe``` file (```./main.exe```).
